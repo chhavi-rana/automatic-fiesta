@@ -9,7 +9,8 @@ app.get('/generate-token', (req, res) => {
   const user = {
     name: 'Chhavi Rana',
     email: 'chhavi.rana@aatmunn.com',
-    
+    basicAuth: {user: 'Chhavi Rana', pass: '123pass'},
+    bearerAuth: "abcdefghijkl123456789",
     version: 1,
   };
 
